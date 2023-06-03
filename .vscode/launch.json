@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python:Odoo16",
+            "type":"python",
+            "request":"launch",
+            "stopOnEntry": false,
+            "python":"${command:python.interpreterPath}",
+            "console":"integratedTerminal",
+            "program":"/home/henrymai/ecotruck/pythonProject/odoo/odoo-bin",
+            "args": [
+               "--config=/home/henrymai/ecotruck/pythonProject/conf/odoo.conf",
+            ],
+            // "cwd":"${workspaceRoot}",
+            "env": {},
+            // "envFile":"${workspaceRoot}/.env",
+            "debugOptions": [
+                "RedirectOutput"
+            ]
+        }
+    ]
+}
